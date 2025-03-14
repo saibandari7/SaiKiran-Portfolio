@@ -31,22 +31,58 @@ body::before {
     padding: 20px;
     background: rgba(0, 0, 0, 0.7);
     border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(255, 255, 255, 0.2);
 }
 
 /* Header Styles */
 header h1 {
     font-size: 2.5em;
     margin: 0;
+    opacity: 0;
+    animation: fadeIn 2s ease-in forwards;
 }
 
-/* Links */
-a {
-    color: #00c3ff;
-    text-decoration: none;
-    font-weight: bold;
+/* Fade-in Animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
-a:hover {
+.fade-in {
+    opacity: 0;
+    animation: fadeIn 2s ease-in forwards;
+}
+
+/* Slide-up Animation */
+@keyframes slideUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.slide-up {
+    opacity: 0;
+    animation: slideUp 1.5s ease-out forwards;
+}
+
+/* Hover Animation for Links */
+.hover-glow {
+    transition: color 0.3s ease-in-out;
+}
+
+.hover-glow:hover {
     color: #ff7300;
+    text-shadow: 0px 0px 10px rgba(255, 115, 0, 0.8);
 }
 
