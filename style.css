@@ -1,0 +1,52 @@
+/* Set full-page background */
+body {
+    background: url('assets/background.jpg') no-repeat center center 
+fixed;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Dark overlay to improve text visibility */
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+}
+
+/* Center content */
+.container {
+    position: relative;
+    z-index: 1;
+    max-width: 600px;
+    margin: 100px auto;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+}
+
+/* Header Styles */
+header h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+/* Links */
+a {
+    color: #00c3ff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #ff7300;
+}
+
