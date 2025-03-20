@@ -1,0 +1,17 @@
+sai-portfolio/
+│── public/
+│── src/
+│   │── components/
+│   │   │── Header.js
+│   │   │── Footer.js
+│   │   │── Home.js
+│   │   │── About.js
+│   │   │── Skills.js
+│   │   │── Experience.js
+│   │   │── Projects.js
+│   │   │── Contact.js
+│   │── assets/ (for images, logos)
+│   │── App.js
+│   │── index.js
+│── package.json
+│── README.md
