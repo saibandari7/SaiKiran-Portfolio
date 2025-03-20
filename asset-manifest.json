@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/SaiKiran-Portfolio/static/css/main.f855e6bc.css",
+    "main.js": "/SaiKiran-Portfolio/static/js/main.e79a0572.js",
+    "static/js/453.c861d55a.chunk.js": "/SaiKiran-Portfolio/static/js/453.c861d55a.chunk.js",
+    "static/media/logo.svg": "/SaiKiran-Portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/SaiKiran-Portfolio/index.html",
+    "main.f855e6bc.css.map": "/SaiKiran-Portfolio/static/css/main.f855e6bc.css.map",
+    "main.e79a0572.js.map": "/SaiKiran-Portfolio/static/js/main.e79a0572.js.map",
+    "453.c861d55a.chunk.js.map": "/SaiKiran-Portfolio/static/js/453.c861d55a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.e79a0572.js"
+  ]
+}
