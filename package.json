@@ -1,6 +1,6 @@
 {
-  "homepage": "https://saikiran-bandari.github.io/SaiKiran-Portfolio",
-  "name": "sai-portfolio",
+  "homepage": "https://github.com/saikiran-bandari/SaiKiran-Portfolio",
+  "name": "demo",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -17,7 +17,6 @@
     "react-icons": "^4.9.0",
     "react-parallax-tilt": "^1.7.145",
     "react-router-dom": "^6.12.1",
-    "react-scripts": "5.0.1",
     "react-tsparticles": "^2.10.1",
     "semantic-ui-react": "^2.1.4",
     "tsparticles": "^2.10.1",
@@ -51,6 +50,7 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^5.0.0"
+    "gh-pages": "^5.0.0",
+    "react-scripts": "^5.0.1"
   }
 }
