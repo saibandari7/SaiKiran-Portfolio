@@ -95,9 +95,9 @@ const Header = () => {
             >
               {pages.map((page) => (
                 <MenuItem key={page} onClick={handleCloseNavMenu}>
-                  <Typography textAlign="left">
-                    <Link to={page.href}>{page.text}</Link>
-                  </Typography>
+                  <Link to={page.href}>
+                    <Typography textAlign="left">{page.text}</Typography>
+                  </Link>
                 </MenuItem>
               ))}
             </Menu>
@@ -128,33 +128,24 @@ const Header = () => {
             {pages.map((page, index) => {
               const Icon = pageIcons[index];
               return (
-                <div
-                  style={{
+                <Button
+                  key={page.text}
+                  onClick={handleCloseNavMenu}
+                  sx={{
+                    my: 2,
+                    color: "white",
                     display: "flex",
+                    fontFamily: "poppins",
+                    fontSize: 16,
                     alignItems: "center",
-                    position: "relative",
+                    marginRight: "1.5rem",
                   }}
                 >
-                  <Button
-                    className="header-buttons"
-                    key={page}
-                    onClick={handleCloseNavMenu}
-                    sx={{
-                      my: 2,
-                      color: "white",
-                      display: "flex",
-                      fontFamily: "poppins",
-                      fontSize: 16,
-                      alignItems: "center",
-                      marginRight: "1.5rem",
-                    }}
-                  >
-                    <Icon style={{ marginRight: "0.8rem" }} />
-                    <Link to={page.href}>
-                      <Typography color="white">{page.text}</Typography>
-                    </Link>
-                  </Button>
-                </div>
+                  <Icon sx={{ marginRight: "0.8rem", fontSize: "1.5rem" }} />
+                  <Link to={page.href} style={{ color: "white", textDecoration: "none" }}>
+                    <Typography>{page.text}</Typography>
+                  </Link>
+                </Button>
               );
             })}
           </Box>
