@@ -1,18 +1,19 @@
 {
   "files": {
     "main.css": "/SaiKiran-Portfolio/static/css/main.5f61ba87.css",
-    "main.js": "/SaiKiran-Portfolio/static/js/main.800378b4.js",
+    "main.js": "/SaiKiran-Portfolio/static/js/main.b9b37c3f.js",
     "static/js/453.f3bb842a.chunk.js": "/SaiKiran-Portfolio/static/js/453.f3bb842a.chunk.js",
     "static/media/developer.svg": "/SaiKiran-Portfolio/static/media/developer.e7fd0478451b8d72ff9b93b1ea475b66.svg",
     "static/media/avatar.svg": "/SaiKiran-Portfolio/static/media/avatar.ddee0480c9d8d321bf2f059a4914aa31.svg",
     "static/media/coder.svg": "/SaiKiran-Portfolio/static/media/coder.5463425d5b5b08b6dffc266bbd805012.svg",
+    "static/media/portfolioImage.svg": "/SaiKiran-Portfolio/static/media/portfolioImage.4723f1fe714be7347b8e88809a901489.svg",
     "index.html": "/SaiKiran-Portfolio/index.html",
     "main.5f61ba87.css.map": "/SaiKiran-Portfolio/static/css/main.5f61ba87.css.map",
-    "main.800378b4.js.map": "/SaiKiran-Portfolio/static/js/main.800378b4.js.map",
+    "main.b9b37c3f.js.map": "/SaiKiran-Portfolio/static/js/main.b9b37c3f.js.map",
     "453.f3bb842a.chunk.js.map": "/SaiKiran-Portfolio/static/js/453.f3bb842a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5f61ba87.css",
-    "static/js/main.800378b4.js"
+    "static/js/main.b9b37c3f.js"
   ]
 }
