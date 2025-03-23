@@ -1,0 +1,10 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="100" height="100">
+  <g>
+    <rect x="10" y="20" width="44" height="24" fill="#4CAF50" stroke="#388E3C" stroke-width="2"/>
+    <polygon points="10,20 32,8 54,20" fill="#388E3C"/>
+    <rect x="16" y="30" width="32" height="12" fill="white"/>
+    <circle cx="32" cy="36" r="4" fill="#FFEB3B"/>
+    <text x="50%" y="50%" text-anchor="middle" fill="black" font-size="10" font-family="Arial" dy=".3em">Bank</text>
+  </g>
+</svg>
