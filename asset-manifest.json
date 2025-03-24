@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/SaiKiran-Portfolio/static/css/main.5f61ba87.css",
-    "main.js": "/SaiKiran-Portfolio/static/js/main.ea89888b.js",
+    "main.js": "/SaiKiran-Portfolio/static/js/main.36083f87.js",
     "static/js/453.f3bb842a.chunk.js": "/SaiKiran-Portfolio/static/js/453.f3bb842a.chunk.js",
     "static/media/developer.svg": "/SaiKiran-Portfolio/static/media/developer.e7fd0478451b8d72ff9b93b1ea475b66.svg",
     "static/media/avatar.svg": "/SaiKiran-Portfolio/static/media/avatar.ddee0480c9d8d321bf2f059a4914aa31.svg",
@@ -9,11 +9,11 @@
     "index.html": "/SaiKiran-Portfolio/index.html",
     "static/media/banking_system.svg": "/SaiKiran-Portfolio/static/media/banking_system.2811bc4a0a3642fd37ba275cb8c0b82b.svg",
     "main.5f61ba87.css.map": "/SaiKiran-Portfolio/static/css/main.5f61ba87.css.map",
-    "main.ea89888b.js.map": "/SaiKiran-Portfolio/static/js/main.ea89888b.js.map",
+    "main.36083f87.js.map": "/SaiKiran-Portfolio/static/js/main.36083f87.js.map",
     "453.f3bb842a.chunk.js.map": "/SaiKiran-Portfolio/static/js/453.f3bb842a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5f61ba87.css",
-    "static/js/main.ea89888b.js"
+    "static/js/main.36083f87.js"
   ]
 }
